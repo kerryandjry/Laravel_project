@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Products;
+use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -19,10 +21,14 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return Renderable
      */
-    public function index()
+    public function index(): Renderable
     {
-        return view('home');
+        $books = Products::orderBy('id', 'ASC')->get();
+
+        $data = compact('books');
+
+        return view('home', $data);
     }
 }
