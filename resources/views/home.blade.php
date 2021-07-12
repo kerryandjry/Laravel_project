@@ -23,8 +23,9 @@
                                 <td>{{ $book->id }}</td>
                                 <td>{{ $book->book_name }}</td>
                                 <td>{{ $book->price }}</td>
-                                <td><a href="" class="btn btn-danger">選擇</a></td>
-                                <td><a href="" class="btn btn-info">刪除</a></td>
+                                <td><a href="/user/edit/{{$book->id}}" class="btn btn-danger">修改</a>|
+                                    <a href="/user/delete/{{$book->id}}" class="btn btn-info">刪除</a></td>
+
 {{--                                <td>--}}
 {{--                                    <form action="" method="POST" class="form-inline">--}}
 {{--                                        <button type="submit" class="btn btn-success">--}}
@@ -38,8 +39,13 @@
 {{--                                    </form>--}}
 {{--                                </td>--}}
                             </tr>
+
                         @endforeach
+                        <tr>
+                            <td><a href="/user/add" class="btn btn-info">增新</a></td>
+                        </tr>
                         </tbody>
+
                         <div class="card-body">
                             @if (session('status'))
                                 <div class="alert alert-success" role="alert">
@@ -49,6 +55,7 @@
                             {{ __('You are logged in!') }}
                         </div>
                     </table>
+
                 </div>
             </div>
         </div>

@@ -8,21 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-<form action="<?php echo e(url('user/store')); ?>" method="post">
+<form action="<?php echo e(url('/user/store')); ?>" method="post">
 <table>
     <tr>
         <?php echo e(csrf_field()); ?>
 
-        <td>用戶名</td>
-        <td><input type="text" name="username"></td>
+        <td>增新書名</td>
+        <td><input type="text" name="book_name"></td>
     </tr>
     <tr>
-        <td>密碼</td>
-        <td><input type="password" name="password"></td>
+        <td>增新價格</td>
+        <td><input type="text" name="price"></td>
     </tr>
     <tr>
         <td></td>
-        <td><input type="submit" value="提交"></td>
+        <td><input type="submit" value="確認"></td>
     </tr>
 </table>
 </form>

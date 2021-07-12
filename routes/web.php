@@ -21,8 +21,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/user/add', [Controllers\UserController::class, 'add']);
-Route::post('/user/store', [Controllers\UserController::class, 'add']);
+Route::get('/user/add', [Controllers\HomeController::class, 'add']);
+Route::post('/user/store', [Controllers\HomeController::class, 'store']);
+Route::get('user/edit/{id}',  [Controllers\HomeController::class, 'edit']);
+Route::post('user/update', [Controllers\HomeController::class, 'update']);
+Route::get('user/delete/{id}', [Controllers\HomeController::class, 'delete']);
 
 
 

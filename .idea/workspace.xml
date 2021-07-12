@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="" />
+    <list default="true" id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="never upload env again">
+      <change afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_09_221740_create_books_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/kVUheaeGcLJ1ltjinCcxTEjS0kI6auIZbEueOZWR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/dbca784a03d9443d704cc432340b5086d14af107.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/dbca784a03d9443d704cc432340b5086d14af107.php" afterDir="false" />
+    </list>
+    <list id="a8cc00c6-1d16-47ef-baad-608501529007" name="day1 database update" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/26/1f/261fca441a216af77a356a6d7ce51d9dee57520a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/71/6d/716dc88ca145c7a2b596956bb1739834c28a8671" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/bfd531e9cdfbc299a99f3212bd339f53cfb66c8d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/499eecac52c251806c9026ea1764ef2f65593d00.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/499eecac52c251806c9026ea1764ef2f65593d00.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/65276fc235042cac60bf65518d70dc5083015d4c.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/65276fc235042cac60bf65518d70dc5083015d4c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/f60e5d0e3bc9512ef0730ca3e7fcfe77db3cdc9a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/f60e5d0e3bc9512ef0730ca3e7fcfe77db3cdc9a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
+    <list id="cf4cadef-f9b4-468f-a162-30ab28e95dd4" name="upload .env database update" comment="upload .env database update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +37,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="18d4646a0b03d1ca6d1648d1b925f015886d074b" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -158,28 +188,82 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kerry\Phpprojects\test\resources\views" />
+      <recent name="C:\Users\kerry\Phpprojects\test\resources\views\user" />
       <recent name="C:\Users\kerry\Phpprojects\test\database\migrations" />
       <recent name="C:\Users\kerry\Phpprojects\test\database\_migrations" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.ExampleTest">
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ExampleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="" />
+      <changelist id="cf4cadef-f9b4-468f-a162-30ab28e95dd4" name="upload .env database update" comment="" />
+      <changelist id="a8cc00c6-1d16-47ef-baad-608501529007" name="day1 database update" comment="" />
       <created>1625374493932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625374493932</updated>
       <workItem from="1625374496759" duration="4399000" />
       <workItem from="1625391737903" duration="604000" />
-      <workItem from="1625819594152" duration="18832000" />
+      <workItem from="1625819594152" duration="33685000" />
+      <workItem from="1625879104394" duration="25000" />
+      <workItem from="1625885298626" duration="78000" />
+      <workItem from="1625997864582" duration="553000" />
+      <workItem from="1626000296612" duration="3411000" />
+      <workItem from="1626048712604" duration="7169000" />
     </task>
+    <task id="LOCAL-00001" summary="day1">
+      <created>1625844761428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625844761428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day1 database update">
+      <created>1625872886375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625872886375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day1 database update">
+      <created>1625874998689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625874998689</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upload .env database update">
+      <created>1625875199438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625875199438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="database update and never upload .env again">
+      <created>1625878566530</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625878566530</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,5 +271,44 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="php" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="197" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="70" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="day1" />
+    <MESSAGE value="day1 database update" />
+    <MESSAGE value="upload .env database update" />
+    <MESSAGE value="database update and never upload .env again" />
+    <option name="LAST_COMMIT_MESSAGE" value="database update and never upload .env again" />
   </component>
 </project>
