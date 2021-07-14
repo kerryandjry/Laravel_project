@@ -26,6 +26,7 @@ Route::post('/user/store', [Controllers\HomeController::class, 'store']);
 Route::get('user/edit/{id}',  [Controllers\HomeController::class, 'edit']);
 Route::post('user/update', [Controllers\HomeController::class, 'update']);
 Route::get('user/delete/{id}', [Controllers\HomeController::class, 'delete']);
+Route::get('user/buy/{id}', [Controllers\HomeController::class, 'buy']);
 
 
 

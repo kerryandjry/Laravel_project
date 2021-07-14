@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Products;
+use App\Models\User;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Filesystem\Cache;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
     /**
@@ -23,11 +27,19 @@ class HomeController extends Controller
      *
      * @return Renderable
      */
-    public function index(): Renderable
+    public function index(Request $request)
     {
-        $books = Products::orderBy('id', 'ASC')->get();
-
-        return view('home', compact('books'));
+//        $user = Cache::get('user'.$id)
+        $books = Products::all();
+        if (Gate::allows('user')) {
+            return view('home', compact('books'));
+        }
+//        if (Gate::allows('admin')) {
+//            $books = Products::all();
+//            return view('admin.home', compact('books'));
+//        }
+        return view('admin.home', compact('books'));
+//        dd($request);
     }
 
     public function add()
@@ -81,6 +93,10 @@ class HomeController extends Controller
         }else{
             return back();
         }
+    }
 
+    public function buy($id)
+    {
+        return view('user.buy');
     }
 }

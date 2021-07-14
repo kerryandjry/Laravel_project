@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="never upload env again">
-      <change afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
+    <list default="true" id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/buy.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_09_221740_create_books_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_09_132520_create_admins_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/kVUheaeGcLJ1ltjinCcxTEjS0kI6auIZbEueOZWR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/dbca784a03d9443d704cc432340b5086d14af107.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/dbca784a03d9443d704cc432340b5086d14af107.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/1f6af2b134bcc05db10633dcd8647d40a9efe5c2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/1f6af2b134bcc05db10633dcd8647d40a9efe5c2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <list id="a8cc00c6-1d16-47ef-baad-608501529007" name="day1 database update" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
@@ -171,22 +180,28 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1uptjKIBAvkt5u1BOgTZncAplyD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kerry\Phpprojects\test\app\ststic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kerry\Phpprojects\test\resources\views" />
       <recent name="C:\Users\kerry\Phpprojects\test\resources\views\user" />
@@ -226,7 +241,13 @@
       <workItem from="1625885298626" duration="78000" />
       <workItem from="1625997864582" duration="553000" />
       <workItem from="1626000296612" duration="3411000" />
-      <workItem from="1626048712604" duration="7169000" />
+      <workItem from="1626048712604" duration="7310000" />
+      <workItem from="1626093328914" duration="2910000" />
+      <workItem from="1626147679785" duration="2651000" />
+      <workItem from="1626150803906" duration="34000" />
+      <workItem from="1626157254656" duration="4335000" />
+      <workItem from="1626186395226" duration="2032000" />
+      <workItem from="1626189402472" duration="13260000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1625844761428</created>
@@ -263,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625878566530</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add database CRUD">
+      <created>1626056031655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626056031655</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,10 +333,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="day1" />
     <MESSAGE value="day1 database update" />
     <MESSAGE value="upload .env database update" />
     <MESSAGE value="database update and never upload .env again" />
-    <option name="LAST_COMMIT_MESSAGE" value="database update and never upload .env again" />
+    <MESSAGE value="add database CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="add database CRUD" />
   </component>
 </project>
