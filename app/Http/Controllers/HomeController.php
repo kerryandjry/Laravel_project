@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Products;
-use App\Models\User;
+use App\Models\bus;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Contracts\Support\Renderable;
-use Illuminate\Filesystem\Cache;
 use Illuminate\Http\Request;
 
 use Illuminate\Support\Facades\Auth;
@@ -27,17 +26,14 @@ class HomeController extends Controller
      *
      * @return Renderable
      */
-    public function index(Request $request)
+    public function index()
     {
-//        $user = Cache::get('user'.$id)
         $books = Products::all();
+        $bus = Bus::all();
         if (Gate::allows('user')) {
-            return view('home', compact('books'));
+            return view('home', compact('books', 'bus'));
         }
-//        if (Gate::allows('admin')) {
-//            $books = Products::all();
-//            return view('admin.home', compact('books'));
-//        }
+
         return view('admin.home', compact('books'));
 //        dd($request);
     }
@@ -65,7 +61,7 @@ class HomeController extends Controller
     {
         $books = Products::find($id);
 
-        return view('user.edit', compact('books'));
+        return view('admin.edit', compact('books'));
     }
 
     public function update(Request $request)

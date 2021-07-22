@@ -8,7 +8,9 @@
                     <table class="table table-striped table-bordered">
                         <thead>
                         <tr>
-{{--                            <th>id</th>--}}
+                            <td><a href="./user/search" class="btn btn-danger">公車查詢</a>
+                        </tr>
+                        <tr>
                             <th>書名</th>
                             <th>價格</th>
                         </tr>
@@ -16,45 +18,11 @@
                         <tbody>
                         @foreach($books as $book)
                             <tr>
-{{--                                <td class="table-text">--}}
-{{--                                    <div class="">{{ $book->book_name }}</div>--}}
-{{--                                </td>--}}
-{{--                                <td>{{ $book->id }}</td>--}}
                                 <td>{{ $book->book_name }}</td>
                                 <td>{{ $book->price }}</td>
-                                <td><a href="/user/buy/{{$book->id}}" class="btn btn-danger">購買</a>
-
-
-{{--                                <td>--}}
-{{--                                    <form action="" method="POST" class="form-inline">--}}
-{{--                                        <button type="submit" class="btn btn-success">--}}
-{{--                                            <i class="fa fa-check"></i>選擇--}}
-{{--                                        </button>--}}
-{{--                                    </form>--}}
-{{--                                    <form action="" method="POST" class="form-inline">--}}
-{{--                                        <button type="submit" class="btn btn-success">--}}
-{{--                                            <i class="fa fa-check"></i>刪除--}}
-{{--                                        </button>--}}
-{{--                                    </form>--}}
-{{--                                </td>--}}
+                                <td><a href="./user/buy/{{$book->id}}" class="btn btn-danger">購買</a>
                             </tr>
-
-                        @endforeach
-{{--                        <tr>--}}
-{{--                            <td><a href="/user/add" class="btn btn-info">增新</a></td>--}}
-{{--                        </tr>--}}
-{{--                        </tbody>--}}
-
-{{--                        <div class="card-body">--}}
-{{--                            @if (session('status'))--}}
-{{--                                <div class="alert alert-success" role="alert">--}}
-{{--                                    {{ session('status') }}--}}
-{{--                                </div>--}}
-{{--                            @endif--}}
-{{--                            {{ __('You are logged in!') }}--}}
-{{--                        </div>--}}
-{{--                    </table>--}}
-
+                    @endforeach
                 </div>
             </div>
         </div>

@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Products;
+use App\Http\Controllers;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/products', function (){
-   return 'products';
+   return Products::all();
 });
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+//Route::get('/test', [Controllers\ApiController::class, 'check']);
+
+Route::middleware('auth:api')->get('/user', function (Request $request){
     return $request->user();
 });

@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('content')
@@ -23,8 +22,8 @@
                                 {{--                                <td>{{ $book->id }}</td>--}}
                                 <td>{{ $book->book_name }}</td>
                                 <td>{{ $book->price }}</td>
-                                <td><a href="/user/edit/{{$book->id}}" class="btn btn-danger">修改</a>|
-                                    <a href="/user/delete/{{$book->id}}" class="btn btn-info">刪除</a></td>
+                                <td><a href="./admin/edit/{{$book->id}}" class="btn btn-danger">修改</a>|
+                                    <a href="./admin/delete/{{$book->id}}" class="btn btn-info">刪除</a></td>
 
                                 {{--                                <td>--}}
                                 {{--                                    <form action="" method="POST" class="form-inline">--}}
@@ -42,7 +41,7 @@
 
                         @endforeach
                         <tr>
-                            <td><a href="/user/add" class="btn btn-info">增新</a></td>
+                            <td><a href="./admin/add" class="btn btn-info">增新</a></td>
                         </tr>
                         </tbody>
 

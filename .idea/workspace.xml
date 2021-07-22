@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92c1bacb-0435-4780-af03-9d96104d0c9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/buy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Bus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_07_22_065934_create_bus_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/search.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_09_132520_create_admins_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/1f6af2b134bcc05db10633dcd8647d40a9efe5c2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/1f6af2b134bcc05db10633dcd8647d40a9efe5c2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/c0/71/c071422490d526a8aada046adf3a9c9fa0593468" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/ec/c4/ecc49f49f4da6b940dcde13f0571e79c299871e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <list id="a8cc00c6-1d16-47ef-baad-608501529007" name="day1 database update" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
@@ -33,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/storage/framework/views/499eecac52c251806c9026ea1764ef2f65593d00.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/499eecac52c251806c9026ea1764ef2f65593d00.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/65276fc235042cac60bf65518d70dc5083015d4c.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/65276fc235042cac60bf65518d70dc5083015d4c.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/f60e5d0e3bc9512ef0730ca3e7fcfe77db3cdc9a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/f60e5d0e3bc9512ef0730ca3e7fcfe77db3cdc9a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <list id="cf4cadef-f9b4-468f-a162-30ab28e95dd4" name="upload .env database update" comment="upload .env database update" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,11 +206,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kerry\Phpprojects\test\resources\views" />
       <recent name="C:\Users\kerry\Phpprojects\test\resources\views\user" />
+      <recent name="C:\Users\kerry\Phpprojects\test\resources\views\admin" />
       <recent name="C:\Users\kerry\Phpprojects\test\database\migrations" />
       <recent name="C:\Users\kerry\Phpprojects\test\database\_migrations" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ExampleTest">
+  <component name="RunManager" selected="PHP Script.ApiController.php">
     <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" scope="Class" />
       <method v="2" />
@@ -218,8 +220,12 @@
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="ApiController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.ApiController.php" />
         <item itemvalue="PHPUnit.ExampleTest" />
       </list>
     </recent_temporary>
@@ -247,7 +253,17 @@
       <workItem from="1626150803906" duration="34000" />
       <workItem from="1626157254656" duration="4335000" />
       <workItem from="1626186395226" duration="2032000" />
-      <workItem from="1626189402472" duration="13260000" />
+      <workItem from="1626189402472" duration="14872000" />
+      <workItem from="1626266448192" duration="937000" />
+      <workItem from="1626332766111" duration="6143000" />
+      <workItem from="1626441130463" duration="71000" />
+      <workItem from="1626501766772" duration="5953000" />
+      <workItem from="1626682848024" duration="1201000" />
+      <workItem from="1626684077959" duration="2280000" />
+      <workItem from="1626701209577" duration="13680000" />
+      <workItem from="1626728290443" duration="4900000" />
+      <workItem from="1626855121240" duration="5450000" />
+      <workItem from="1626936150686" duration="10918000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1625844761428</created>
@@ -291,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626056031655</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix bug">
+      <created>1626259145374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626259145374</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +362,7 @@
     <MESSAGE value="upload .env database update" />
     <MESSAGE value="database update and never upload .env again" />
     <MESSAGE value="add database CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="add database CRUD" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
 </project>

@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use Illuminate\Support\Facades\Http;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,12 +24,15 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/user/add', [Controllers\HomeController::class, 'add']);
-Route::post('/user/store', [Controllers\HomeController::class, 'store']);
-Route::get('user/edit/{id}',  [Controllers\HomeController::class, 'edit']);
-Route::post('user/update', [Controllers\HomeController::class, 'update']);
-Route::get('user/delete/{id}', [Controllers\HomeController::class, 'delete']);
+Route::get('admin/add', [Controllers\HomeController::class, 'add']);
+Route::post('admin/store', [Controllers\HomeController::class, 'store']);
+Route::get('admin/edit/{id}', [Controllers\HomeController::class, 'edit']);
+Route::post('admin/update', [Controllers\HomeController::class, 'update']);
+Route::get('admin/delete/{id}', [Controllers\HomeController::class, 'delete']);
 Route::get('user/buy/{id}', [Controllers\HomeController::class, 'buy']);
+Route::get('user/search', [Controllers\ApiController::class, 'check']);
+Route::post('user/bus_id', [Controllers\ApiController::class, 'store']);
+
 
 
 

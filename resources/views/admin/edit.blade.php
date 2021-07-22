@@ -8,7 +8,7 @@
     <title>edit</title>
 </head>
 <body>
-<form action="{{ url('user/update') }}" method="post">
+<form action="{{ url('/admin/update') }}" method="post">
 <table>
     <tr>
         {{ csrf_field() }}
